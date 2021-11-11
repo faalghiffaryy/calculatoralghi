@@ -16,7 +16,7 @@ numbers.forEach((number) => {
     })
 })
 
-const number = document.querySelectorAll(".number")
+const numbers = document.querySelectorAll(".number")
 
 numbers.forEach((number) => {
     number.addEventListener("click", (event) => {
