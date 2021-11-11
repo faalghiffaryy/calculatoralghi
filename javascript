@@ -20,7 +20,7 @@ const numbers = document.querySelectorAll(".number")
 
 numbers.forEach((number) => {
     number.addEventListener("click", (event) => {
-        console.log(event.target.value)
+        updateScreen(event.target.value)
     })
 })
 
@@ -167,7 +167,7 @@ clearBtn.addEventListener('click', () => {
 const decimal = document.querySelector('.decimal')
 
 decimal.addEventListener('click', (event) => {
-    console.log(event.target.value)
+    updateScreen(event.target.value)
 })
 
 inputDecimal = (dot) => {
